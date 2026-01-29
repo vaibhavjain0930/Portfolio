@@ -9,28 +9,21 @@ export interface ProjectData {
 }
 
 export const projectsData: ProjectData[] = [
+
   {
-    title: "Web Based Login System",
+    title: "Intellicodex (MERN Stack + Gemini API + JDoodle API)",
     description:
-      "Secure web-based login system with user authentication and authorization.",
-    stack: ["HTML", "CSS", "JavaScript", "Backend APIs", "Authentication"],
-    image: "/user.png",
-    learning:
-      "User authentication flows, session management, and secure login design",
-  },
-  {
-    title: "Image Compressor (MERN Stack)",
-    description:
-      "Web application to compress images using React.js, Node.js, and MongoDB with optimized upload and download.",
+      "AI-powered chatbot with Gemini API integration and an inbuilt JDoodle compiler for real-time code execution.",
     stack: [
       "React.js",
       "Node.js",
       "Express.js",
       "MongoDB",
-      "Image Processing",
+      "Gemini API",
+      "JDoodle API",
     ],
     learning:
-      "MERN stack development, file handling, and performance optimization",
+      "AI integration, API orchestration, real-time code execution, and UI/UX for developer tools",
     image: "/user.png",
   },
   {
@@ -48,21 +41,7 @@ export const projectsData: ProjectData[] = [
       "Learned how to integrate third-party execution APIs, manage asynchronous request flows, handle real-time code execution securely, and design developer-focused UI/UX with performance optimization.",
     image: "/user.png",
   },
-  {
-    title: "Netflix Clone",
-    description:
-      "Frontend Netflix clone showcasing responsive UI, grids, and carousels with a dark theme.",
-    stack: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Tailwind CSS",
-    ],
-    learning:
-      "Responsive layout design, UI cloning, and modern frontend styling",
-    image: "/user.png",
-  },
-  {
+   {
     title: "Task Management System (MERN Stack)",
     description:
       "Full-featured task manager with task creation, status tracking, and deadlines.",
@@ -77,21 +56,48 @@ export const projectsData: ProjectData[] = [
       "CRUD operations, authentication, API integration, and MongoDB-based data storage",
     image: "/user.png",
   },
-  {
-    title: "Intellicodex (MERN Stack + Gemini API + JDoodle API)",
-    description:
-      "AI-powered chatbot with Gemini API integration and an inbuilt JDoodle compiler for real-time code execution.",
-    stack: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Gemini API",
-      "JDoodle API",
-    ],
-    learning:
-      "AI integration, API orchestration, real-time code execution, and UI/UX for developer tools",
-    image: "/user.png",
-  },
+  // {
+  //   title: "Web Based Login System",
+  //   description:
+  //     "Secure web-based login system with user authentication and authorization.",
+  //   stack: ["HTML", "CSS", "JavaScript", "Backend APIs", "Authentication"],
+  //   image: "/user.png",
+  //   learning:
+  //     "User authentication flows, session management, and secure login design",
+  // },
+
+
+  // {
+  //   title: "Image Compressor (MERN Stack)",
+  //   description:
+  //     "Web application to compress images using React.js, Node.js, and MongoDB with optimized upload and download.",
+  //   stack: [
+  //     "React.js",
+  //     "Node.js",
+  //     "Express.js",
+  //     "MongoDB",
+  //     "Image Processing",
+  //   ],
+  //   learning:
+  //     "MERN stack development, file handling, and performance optimization",
+  //   image: "/user.png",
+  // },
+  
+  // {
+  //   title: "Netflix Clone",
+  //   description:
+  //     "Frontend Netflix clone showcasing responsive UI, grids, and carousels with a dark theme.",
+  //   stack: [
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "Tailwind CSS",
+  //   ],
+  //   learning:
+  //     "Responsive layout design, UI cloning, and modern frontend styling",
+  //   image: "/user.png",
+  // },
+ 
+  
 
 ];
