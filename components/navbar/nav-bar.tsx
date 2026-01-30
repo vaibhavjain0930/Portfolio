@@ -16,12 +16,12 @@ export const NavBar = () => {
   const navItems: navItemsProps[] = [
     {
       title: "Home",
-      href: "#home",
+      href: "/",
       Icon: Home,
     },
     {
       title: "Projects",
-      href: "#projects",
+      href: "/projects",
       Icon: FileBracesCorner,
     },
     {

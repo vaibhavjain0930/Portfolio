@@ -48,19 +48,19 @@ export function AboutMe() {
 }
 
 export const AboutContent = () => (
-  <>
-   I am a full stack developer who builds{" "}
-<span className="text-primary font-semibold">scalable</span>,{" "}
-<span className="text-primary font-semibold">user-friendly</span> web
-applications. I work with{" "}
-<span className="bg-slate-500 px-2 py-1 text-white">
-  React, Next.js & Tailwind CSS
-</span>{" "}
-on the frontend and{" "}
-<span className="bg-slate-500 px-2 py-1 text-white">
-  Node.js, Express & MongoDB
-</span>{" "}
-on the backend, turning ideas into clean, production-ready digital solutions.
+ <>
+  I’m a full stack developer building{" "}
+  <span className="text-primary font-semibold">scalable</span> and{" "}
+  <span className="text-primary font-semibold">user-friendly</span> web apps.
+  I use{" "}
+  <span className="bg-slate-500 px-2 py-1 text-white">
+    React, Next.js & Tailwind CSS
+  </span>{" "}
+  for frontend and{" "}
+  <span className="bg-slate-500 px-2 py-1 text-white">
+    Node.js, Express & MongoDB
+  </span>{" "}
+  for backend, turning ideas into clean, production-ready solutions.
+</>
 
-  </>
 );

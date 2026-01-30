@@ -1,8 +1,6 @@
 "use client";
 
 import { ExternalLink, Github } from "lucide-react";
-import React from "react";
-import { ProjectData } from "../constant";
 import { MouseGlow } from "@/components/mouse-glow";
 import { AnimatedCard } from "@/components/animated-border";
 import { useMouseGlow } from "@/hooks/useMouseGlow";
@@ -10,6 +8,7 @@ import Heading from "@/components/heading";
 import { SubHeading } from "@/components/sub-heading";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
+import { ProjectData } from "./constant";
 
 export const ProjectCard = ({ ...project }: ProjectData) => {
   const { x, y, handleMouseMove } = useMouseGlow();
@@ -28,7 +27,7 @@ export const ProjectCard = ({ ...project }: ProjectData) => {
         },
       }}
       viewport={{ once: true }}
-      className="relative px-6 h-full py-6 md:py-10 hover:shadow-lg shadow-none duration-200 transition-all"
+      className="relative h-full px-6 py-6 shadow-none transition-all duration-200 hover:shadow-lg md:py-10"
     >
       <CardContent {...project} />
       <MouseGlow x={x} y={y} />

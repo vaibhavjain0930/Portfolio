@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { NavBar } from "@/components/navbar/nav-bar";
 import { inter, poppins } from "@/lib/font";
 import { metadata } from "@/lib/metadata";
-import Footer from "@/components/footer/footer";
+import { ContactPage } from "./_components/contact/contact-page";
 
 export { metadata };
 
@@ -16,9 +16,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link rel="manifest" href="/favicon_io/site.webmanifest" />
-      </head>
       <body
         className={`${inter.variable} ${poppins.variable} mx-auto max-w-4xl antialiased`}
       >
@@ -31,7 +28,10 @@ export default function RootLayout({
           {/* navbar for the site */}
           <NavBar />
           {/* main content */}
-          <main className="px-6 md:px-14">{children}</main>
+          <main className="px-6 md:px-14">
+            {children}
+            {/* footer for the site */}
+          </main>
         </ThemeProvider>
       </body>
     </html>

@@ -14,6 +14,7 @@ export const projectsData: ProjectData[] = [
     title: "Intellicodex (MERN Stack + Gemini API + JDoodle API)",
     description:
       "AI-powered chatbot with Gemini API integration and an inbuilt JDoodle compiler for real-time code execution.",
+    githubLink: "https://github.com/vaibhavjain0930/INTELLICODEX",
     stack: [
       "React.js",
       "Node.js",
@@ -29,7 +30,8 @@ export const projectsData: ProjectData[] = [
   {
     title: "Online Code Compiler",
     description:
-      "A browser-based code compiler built with the MERN stack that allows users to write, execute, and test Python, C, C++, Java, and JavaScript in real time. Designed to provide a smooth developer experience with fast execution and an intuitive UI.",
+      "Browser-based MERN code compiler supporting Python, C, C++, Java, and JavaScript with real-time execution and a fast, intuitive developer experience.",
+    githubLink: "https://github.com/vaibhavjain0930/Online-Compiler",
     stack: [
       "React.js",
       "Node.js",
@@ -38,13 +40,15 @@ export const projectsData: ProjectData[] = [
       "JDoodle API",
     ],
     learning:
-      "Learned how to integrate third-party execution APIs, manage asynchronous request flows, handle real-time code execution securely, and design developer-focused UI/UX with performance optimization.",
+      "Integrated third-party execution APIs, handled async workflows, enabled secure real-time code execution, and built high-performance developer-focused UI/UX.",
     image: "/user.png",
   },
-   {
+  {
     title: "Task Management System (MERN Stack)",
     description:
       "Full-featured task manager with task creation, status tracking, and deadlines.",
+
+    githubLink: "https://github.com/vaibhavjain0930/Task-Manager",
     stack: [
       "React.js",
       "Node.js",
@@ -82,7 +86,7 @@ export const projectsData: ProjectData[] = [
   //     "MERN stack development, file handling, and performance optimization",
   //   image: "/user.png",
   // },
-  
+
   // {
   //   title: "Netflix Clone",
   //   description:
@@ -97,7 +101,7 @@ export const projectsData: ProjectData[] = [
   //     "Responsive layout design, UI cloning, and modern frontend styling",
   //   image: "/user.png",
   // },
- 
-  
+
+
 
 ];
