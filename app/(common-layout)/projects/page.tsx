@@ -9,12 +9,12 @@ const ProjectPage = () => {
     <Container>
       <MotionHeading as="h2">Projects</MotionHeading>
       <MotionSubHeading className="mt-4 w-4/5">
-        A showcase of production-ready projects focused on performance,
-        usability, and clean code, built using industry-standard tools and best
-        practices. Crafted with attention to detail and real-world use cases.
+        A portfolio of production-ready work centered on performance, intuitive
+        usability, and well-structured code, created with industry-leading tools
+        and best practices. Meticulously crafted for real-world solutions.
       </MotionSubHeading>
       <MotionSubHeading className="mt-2">
-        From concept to deployment — crafted with clean code.
+        From concept to deployment — engineered with clean code.
       </MotionSubHeading>
 
       {/* projects   */}
