@@ -60,6 +60,23 @@ export const projectsData: ProjectData[] = [
       "CRUD operations, authentication, API integration, and MongoDB-based data storage",
     image: "/user.png",
   },
+  {
+  title: "Invoice Generator",
+  description:
+    "Web-based invoice generator built with Next.js that allows users to create, manage, and download professional invoices with real-time calculations.",
+  githubLink: "https://github.com/vaibhavjain0930/Invoice_Generator",
+  stack: [
+    "Next.js",
+    "React.js",
+    "Node.js",
+    "MongoDB",
+    "Tailwind CSS"
+  ],
+  learning:
+    "Built dynamic form handling, implemented real-time price calculations, generated downloadable invoices, managed client data, and improved UI/UX performance.",
+  image: "/user.png",
+},
+
   // {
   //   title: "Web Based Login System",
   //   description:
