@@ -28,6 +28,23 @@ export const projectsData: ProjectData[] = [
     image: "/user.png",
   },
   {
+    title: "YouTube Watch Party System (MERN + Socket.IO)",
+    description: "Real-time watch party application where multiple users can watch YouTube videos in sync with role-based controls (Host, Moderator, Participant).",
+    githubLink: "https://github.com/vaibhavjain0930/watch-party-system",
+    liveLink: "https://watch-party-system.vercel.app/",
+    stack: [
+      "React.js",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Socket.IO",
+      "Material UI",
+      "YouTube IFrame API"
+    ],
+    learning: "Real-time synchronization using WebSockets, RBAC (Role-Based Access Control), event-driven architecture, and handling shared state across multiple clients",
+    image: "/watch-party.png"
+  },
+  {
     title: "Online Code Compiler",
     description:
       "Browser-based MERN code compiler supporting Python, C, C++, Java, and JavaScript with real-time execution and a fast, intuitive developer experience.",
@@ -61,21 +78,21 @@ export const projectsData: ProjectData[] = [
     image: "/user.png",
   },
   {
-  title: "Invoice Generator",
-  description:
-    "Web-based invoice generator built with Next.js that allows users to create, manage, and download professional invoices with real-time calculations.",
-  githubLink: "https://github.com/vaibhavjain0930/Invoice_Generator",
-  stack: [
-    "Next.js",
-    "React.js",
-    "Node.js",
-    "MongoDB",
-    "Tailwind CSS"
-  ],
-  learning:
-    "Built dynamic form handling, implemented real-time price calculations, generated downloadable invoices, managed client data, and improved UI/UX performance.",
-  image: "/user.png",
-},
+    title: "Invoice Generator",
+    description:
+      "Web-based invoice generator built with Next.js that allows users to create, manage, and download professional invoices with real-time calculations.",
+    githubLink: "https://github.com/vaibhavjain0930/Invoice_Generator",
+    stack: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    learning:
+      "Built dynamic form handling, implemented real-time price calculations, generated downloadable invoices, managed client data, and improved UI/UX performance.",
+    image: "/user.png",
+  },
 
   // {
   //   title: "Web Based Login System",
