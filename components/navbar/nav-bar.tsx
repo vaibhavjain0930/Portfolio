@@ -24,11 +24,11 @@ export const NavBar = () => {
       href: "/projects",
       Icon: FileBracesCorner,
     },
-    {
-      title : "Blog",
-      href : "#blog",
-      Icon : Earth
-    },
+    // {
+    //   title : "Blog",
+    //   href : "#blog",
+    //   Icon : Earth
+    // },
     {
       title: "GitHub",
       href: "https://github.com/vaibhavjain0930",
