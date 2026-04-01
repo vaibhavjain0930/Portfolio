@@ -10,7 +10,7 @@ import { useState } from "react";
 
 const footerLinks = [
   {
-    href: "https://github.com",
+    href: "https://github.com/vaibhavjain0930",
     text: "Github",
   },
   {
