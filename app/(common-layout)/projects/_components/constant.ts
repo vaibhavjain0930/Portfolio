@@ -15,6 +15,7 @@ export const projectsData: ProjectData[] = [
     description:
       "AI-powered chatbot with Gemini API integration and an inbuilt JDoodle compiler for real-time code execution.",
     githubLink: "https://github.com/vaibhavjain0930/INTELLICODEX",
+    liveLink: "https://intellicodex.vercel.app/",
     stack: [
       "React.js",
       "Node.js",
