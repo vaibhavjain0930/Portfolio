@@ -29,6 +29,20 @@ export const projectsData: ProjectData[] = [
     image: "/user.png",
   },
   {
+    "title": "Aura Fashion (AI Try-On Clothing Platform)",
+    "description": "Modern fashion e-commerce platform with AI-powered virtual try-on, personalized recommendations, and seamless shopping experience.",
+    "githubLink": "https://github.com/vaibhavjain0930/AURA-Fashion",
+    "liveLink": "https://aura-fashion-nu.vercel.app/",
+    "stack": [
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+    ],
+    "learning": "AI try-on implementation, image processing, personalized recommendations, modern UI/UX design, and full-stack e-commerce architecture",
+    "image": "/aura-fashion.png"
+  },
+  {
     title: "YouTube Watch Party System (MERN + Socket.IO)",
     description: "Real-time watch party application where multiple users can watch YouTube videos in sync with role-based controls (Host, Moderator, Participant).",
     githubLink: "https://github.com/vaibhavjain0930/watch-party-system",
